@@ -1,0 +1,28 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    check_file_list                                    :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: mpagani <marvin@42.fr>                     +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2022/09/20 16:36:49 by mpagani           #+#    #+#              #
+#    Updated: 2022/09/20 16:59:06 by mpagani          ###   ########lyon.fr    #
+#                                                                              #
+# **************************************************************************** #
+
+test_0 		=> Toutes les lignes doivent avoir la même longueur.
+test_1		=> Il y a au moins une ligne d’au moins une case.
+test_2		=> À la fin de chaque ligne, il y a un retour à la ligne.
+test_3		=> Les caractères présent dans la carte doivent être uniquement ceux présenté à la première ligne.
+test_4		=> si un caractère manque sur la première ligne
+test_5		=>  si deux caractères (parmis vide, plein, et obstacles) sont identiques
+
+
+bugs shown up when:
+=> on execute le programme sans argumentes (./bsq)
+=> on passe en argument:
+	// test 1
+
+a doucle checker:
+=> \n apres chaque solution ou map error
+=>  
